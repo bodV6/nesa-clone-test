@@ -1,0 +1,125 @@
+.hp-container {
+  height: 100vh;
+  background: url(./images/banner.jpg) center 70% no-repeat;
+  background-color: #fad7b0;
+  background-size: cover;
+  /* position: relative; */
+  /* z-index: 1; */
+  /* filter: contrast(100%); */
+  min-height: 729px;
+}
+/* .hp-container::before{
+    background-color: #FAD7B0;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+  } */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.title {
+  /* width: 70px; */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.title .circle {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #f0891e;
+  border-radius: 50%;
+}
+
+.title h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  /* margin-bottom: 0; */
+}
+.title h1 span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: -5px;
+  padding-left: 3px;
+}
+
+.nav-bar {
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-bar ul button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+}
+.nav-bar ul li:hover {
+  padding-bottom: 2px;
+  border-bottom: 3px solid white;
+}
+.nav-bar ul li:last-child {
+  background-color: #f19841;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border-bottom: none;
+}
+
+.nav-bar ul li:last-child:hover {
+  background-color: #f0891e;
+}
+
+.main-container {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 70%;
+  color: white;
+}
+
+.main-container .main-heading {
+  font-size: 7.5rem;
+  line-height: 1;
+  text-align: center;
+  margin: 3rem 5rem;
+  /* padding: 3rem 5rem; */
+}
+
+.main-container .main-pg {
+  font-size: 2rem;
+  color: white;
+  line-height: 1.5;
+  word-spacing: 5px;
+  padding: 0 10px;
+}
+.cta-btn {
+  text-align: center;
+}
+.cta-btn button {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #f19841;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+}
+
+.cta-btn button:hover {
+  background-color: #f0891e;
+}
